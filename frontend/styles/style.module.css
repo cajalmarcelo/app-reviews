@@ -1,0 +1,72 @@
+.titulo{
+    color: #000;
+    text-align: center;
+}
+.reseñas {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: grid;
+    cursor: pointer;
+  }
+
+  .reseñas button {
+    width: 200px;
+    margin: 0 auto;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+.reseñas:hover{
+    background-color: #ccc;
+}  
+
+.container ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.reseñas_form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: grid;
+}
+
+.reseñas_contenido{
+    display: flex;
+    margin: 0 auto;
+}
+
+.reseñas_form input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.reseñas_form textarea{
+    padding: 5px;
+    border-radius: 5px solid;
+}
+
+.reseña_boton{
+    padding: 5px;
+    background-color: green;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
